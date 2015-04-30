@@ -11,7 +11,7 @@
       	<header>
       		<nav>
       			<ul>
-      				<li class="nav-bar"><a href="#">Home</a></li>
+              <li class="nav-bar"><a href="#">Home</a></li>
       				<li class="nav-bar"><a href="#">About</a></li>
       				<li class="nav-bar"><a href="#">Services</a></li>
       				<li class="nav-bar"><a href="#">Blog</a></li>
@@ -20,15 +20,23 @@
       		</nav>
       	</header>
       	<div id="bulk">
-      		<div id="topBar" class="clearfloat">
+      		<div id="topBar" class="clearfix">
             <div id="logo">
       			 <img src="images/logo.png">
       			</div>
             <div id="social-media">
-      				<a href="#"><img src="images/linkedin-grey.png"></a>
-      				<a href="#"><img src="images/twitter-grey.png"></a>
-      				<a href="#"><img src="images/facebook-grey.png"></a>
-      				<a href="#"><img src="images/rss-grey.png"></a>
+      				<div class="social-icon" id="linkedin">
+              <a href="#"></a>
+              </div>
+              <div class="social-icon" id="twitter">
+      				<a href="#"></a>
+      				</div>
+              <div class="social-icon" id="facebook">
+              <a href="#"></a>
+      				</div>
+              <div class="social-icon" id="rss">
+              <a href="#"></a>
+              </div>
       			</div>
       		</div>
       		<div id="primary-image">
@@ -37,7 +45,7 @@
           <div id="shadow">
             <img src="images/shadow_slider.png">
       		</div>
-      		<div id="blurb">
+      		<div id="blurb" class="clearfix">
       			<div id="paragraph">
       				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       			</div>
@@ -45,27 +53,27 @@
       				<img src="images/button_blurb.png">
       			</div>
       		</div>
-      		<div id="secondary-content">
+      		<div id="secondary-content" class="clearfix">
       			<div id="col-1">
       				<h3>Home Box 1</h4>
-      				<div class="secondary-image">
-      					<img src="images/photo_column1.jpg">
+      				<div>
+      					<img src="images/photo_column1.jpg" class="secondary-image">
       				</div>
       				<p>Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       				<p class="read"><a href="#">Read more &gt;&gt;</a></p>
       			</div>
       			<div id="col-2">
       				<h3>Home Box 2</h4>
-      				<div class="secondary-image">
-      					<img src="images/photo_column2.jpg">
+      				<div>
+      					<img src="images/photo_column2.jpg" class="secondary-image">
       				</div>
       				<p>Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       				<p class="read"><a href="#">Read more &gt;&gt;</a></p>
       			</div>
       			<div id="col-3">
       				<h3>Home Box 3</h4>
-      				<div class="secondary-image">
-      				<img src="images/photo_column3.jpg">
+      				<div>
+      				<img src="images/photo_column3.jpg" class="secondary-image">
       				</div>
       				<p>Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       				<p class="read"><a href="#">Read more &gt;&gt;</a></p>
@@ -79,25 +87,25 @@
 	  		<div id="blogroll">
 	  			<h5>Blogroll</h5>
 	  			<ul>
-	  				<li>Documentation</li>
-	  				<li>Plugins</li>
-	  				<li>Suggest Ideas</li>
-	  				<li>Support Forum</li>
-	  				<li>Themes</li>
-	  				<li>WordPress Blog</li>
+	  				<hr><li>Documentation</li>
+	  				<hr><li>Plugins</li>
+	  				<hr><li>Suggest Ideas</li>
+	  				<hr><li>Support Forum</li>
+	  				<hr><li>Themes</li>
+	  				<hr><li>WordPress Blog</li><hr>
 	  			</ul>
 	  		</div>
 	  		<div id="textWidget">
 	  			<h5>Text Widget</h5>
-	  			<p id="twp">Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  			<hr><p id="twp">Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	  		</div>
 	  		<div id="metaWidget">
 	  			<h5>Mega Widget</h5>
 	  			<ul>
-	  				<li>Log in</li>
-	  				<li>Entries RSS</li>
-	  				<li>Comments RSS</li>
-	  				<li>WordPress.org</li>
+	  				<hr><li>Log in</li>
+	  				<hr><li>Entries RSS</li>
+	  				<hr><li>Comments RSS</li>
+	  				<hr><li>WordPress.org</li><hr>
 	  			</ul>  			
 	  		</div>
 	  	</div>
